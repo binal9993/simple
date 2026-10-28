@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Bootstrap Theme</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #333333;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+
+        .bg-1 {
+            background-color: #9bbcea;
+            color: #ffffff;
+        }
+
+        .bg-2 {
+            background-color: #090a0a;
+            color: #ffffff;
+        }
+
+        .bg-3 {
+            background-color: #ffffff;
+            color: #555555;
+        }
+
+        .bg-4 {
+            background-color: #2f2f2f;
+            color: #ffffff;
+        }
+
+        .container-fluid {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+
+        .profile-img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- First section -->
+    <div class="container-fluid bg-1 text-center">
+        <h2 class="margin">Hello, I'm Dhruvi!</h2>
+
+       <img src="myphoto.jpeg" alt="My Photo" height="200px" class="img-circle">
+
+        <h3>Student | Ahmedabad University | 4th Year</h3>
+    </div>
+
+    <!-- Second section -->
+    <div class="container-fluid bg-2 text-center">
+        <h3 class="margin">A Little About Me</h3>
+
+        <p>
+            I am a student who enjoys exploring creative ideas,
+            learning new things and finding inspiration in everyday life.
+            I believe that life is about growing, creating and
+            making a positive difference in the world.
+        </p>
+
+        <a href="#about" class="btn btn-default btn-lg">
+            Know More About Me
+        </a>
+    </div>
+
+    <!-- Third section -->
+    <div class="container-fluid bg-3 text-center" id="about">
+        <h3 class="margin">Things I Love</h3>
+
+        <div class="row">
+
+            <div class="col-sm-4">
+                <h4>Nature</h4>
+                <p>
+                    I love greenery, peaceful places and
+                    spending time close to nature.
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <h4>Creativity</h4>
+                <p>
+                    I enjoy branding, design and turning
+                    simple ideas into something meaningful.
+                </p>
+            </div>
+
+            <div class="col-sm-4">
+                <h4>Learning</h4>
+                <p>
+                    I like discovering new things and
+                    learning from my experiences.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Made with love by Dhruvi | My Personal Website</p>
+    </footer>
+
+</body>
+</html>
